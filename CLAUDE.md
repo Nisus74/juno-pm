@@ -4,11 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-Travis Polland's final project for the **AI Product Management Certification**. It specifies **Juno**, an AI product, through one artifact per course module (M1 to M5), which the M6 builder turns into a final presentation. The repo is hosted on the Nisus74 GitHub account.
+Travis Polland's final project for the **AI Product Management Certification**, an online course from **Product School**. It specifies **Juno**, an AI product, through one artifact per course module (M1 to M5), which the M6 builder turns into a final presentation. The repo is hosted on the Nisus74 GitHub account.
 
 It is Markdown only: there is no build, lint, or test tooling. GitHub renders the files directly.
 
 Juno's actual concept is not defined anywhere yet (the README pitch line is still a placeholder). Ask rather than invent what Juno does, who it serves, or any product decisions.
+
+## Local course context (`docs/`)
+
+`docs/` holds Product School course material and Travis's own notes. It is **gitignored and exists only on this machine**, so it won't appear on GitHub or in a fresh clone. Read it for context (module instructions, tool guidance, rubrics) before writing an artifact. Never copy course material into the tracked module files, and don't move anything out of `docs/` into the repo without asking.
 
 ## How artifacts get written
 
