@@ -8,7 +8,7 @@ Travis Polland's final project for the **AI Product Management Certification**, 
 
 It is Markdown only: there is no build, lint, or test tooling. GitHub renders the files directly.
 
-Juno's actual concept is not defined anywhere yet (the README pitch line is still a placeholder). Ask rather than invent what Juno does, who it serves, or any product decisions.
+The course sets the frame: **Juno PM** is an AI Associate PM for **RocketShip**, a B2B SaaS platform struggling with "signal collapse". Nothing shared so far defines signal collapse or who at RocketShip Juno serves, and the README pitch line is still a placeholder. Everything beyond that frame (what Juno does on its own, its human handoffs, how success is judged) is decided by Travis in class, so ask rather than invent it.
 
 ## Local course context (`docs/`)
 
@@ -16,9 +16,12 @@ Juno's actual concept is not defined anywhere yet (the README pitch line is stil
 
 ## How artifacts get written
 
-Each module file is a template that gets **replaced, not edited**: the course provides a named tool per module (M1 Skill File Builder, M3 Harness Architecture Decider and AI PRD Builder, M4 Agent Control Panel, M5 Human Evaluation Rubric), and its markdown output is pasted over the template. The blockquote at the top of each file names its tool.
+Each module file is a template that gets **replaced, not edited**. Every lab has a **Lab Guide** (the Product School page worked in during class) that hosts that module's named tool (M1 Skill File Builder, M3 Harness Architecture Decider and AI PRD Builder, M4 Agent Control Panel, M5 Human Evaluation Rubric). Its markdown output is copied or downloaded over the template, then committed. The blockquote at the top of each file names its tool. M2's prototype is built in an external vibe-coding tool, with screenshots of the core interaction.
 
 - **Paths and headings are load-bearing.** In M6, the **Final Project Deliverables Builder** reads these files to generate `final-presentation.html`. Don't rename files or folders, and keep each file's heading structure intact.
+- **M1 bar.** The skill file's Constraints section needs three or more guardrails, including at least one hard refusal (stricter than the template's hint).
+- **M6** assembles the five deliverables plus a reflection on the course. Submission is the repo URL plus the presentation (GitHub Pages link or the file).
+- **Pre-reads.** Each module has a pre-read, which also names any extra tool to sign up for. Check `docs/course/` for it before working on a module. The class schedule (Dec 2026) is in `docs/course/00-overview.md`.
 - **Unfilled sections** are marked with `_____`, `_(missing)_`, or italic prompt text such as `_The one job Juno owns end-to-end._`.
 - **`final-presentation.html`** is listed in the README but does not exist yet. It comes from the external builder and gets committed afterwards; don't create it by hand.
 - The README's intended cadence is to commit one module's artifact per session.
