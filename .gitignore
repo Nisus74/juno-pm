@@ -1,2 +1,5 @@
 # Local-only course context (Product School material and personal notes)
 docs/
+
+# macOS Finder metadata
+.DS_Store
